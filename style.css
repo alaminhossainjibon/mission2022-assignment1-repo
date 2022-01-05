@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*section 1 start*/
+.stay-mission{
+    border-left: 5px solid rgb(241, 49, 15);
+}
+h1{
+    font-size: 60px;
+}
+span{
+    color: tomato;
+}
+.mission22-focused{
+    display: flex;
+
+}
+.stay-half-width{
+    width: 50%;
+    padding: 70px;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,blue);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+.person1-image{
+    width: 90%;
+}
+/*section 1 end*/
+.align{
+    text-align: center;
+}
