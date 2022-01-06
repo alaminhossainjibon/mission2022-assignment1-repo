@@ -3,6 +3,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 /*section 1 start*/
+.mission22-focused{
+    display: flex;
+
+}
+.stay-half-width{
+    width: 50%;
+    padding: 70px;
+    padding-bottom: 30px;
+}
 .stay-mission{
     border-left: 5px solid #f1310f;
 }
@@ -12,22 +21,13 @@ h1{
 span{
     color: tomato;
 }
-.mission22-focused{
-    display: flex;
-
-}
 .flexible{
     display: flex;
     padding: 20px;
 }
-.stay-half-width{
-    width: 50%;
-    padding: 70px;
-    padding-bottom: 30px;
-}
 a{
     text-decoration: none;
-    background-image: linear-gradient(tomato,blue);
+    background-image: linear-gradient(#ff6347, green);
     color: white;
     padding: 10px;
     border-radius: 7px;
@@ -44,13 +44,16 @@ a{
 .mission-vission-goals{
     display: flex;
     padding: 70px;
+
 }
 .half-width{
     width: 30%;
-    border-radius: 10px;
+    border-radius: 20px;
     height: 250px;
-    padding-bottom: 60px;
+    padding: 30px;
     padding-left: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 .illustrators{
     width: 40%;
@@ -62,7 +65,7 @@ a{
     background-color:#eba8d7;
 }
 #goals{
-    background-color: blanchedalmond;
+    background-color: #ffebcd;
 }
 /*section 2 end*/
 
@@ -78,15 +81,15 @@ a{
     text-align: center;
 }
 .rejister{
-    background-image: linear-gradient(blue, red, salmon);
-    color: white;
+    background-image: linear-gradient(#0000ff, #ff0000, #fa8072);
+    color: #ffffff;
     width: 40%;
     padding: 10px;
     border-radius: 10px;
 }
 footer{
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 30px;
 }
