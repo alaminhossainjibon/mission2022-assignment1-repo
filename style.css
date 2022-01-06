@@ -1,9 +1,10 @@
 body{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 /*section 1 start*/
 .stay-mission{
-    border-left: 5px solid rgb(241, 49, 15);
+    border-left: 5px solid #f1310f;
 }
 h1{
     font-size: 60px;
@@ -15,9 +16,14 @@ span{
     display: flex;
 
 }
+.flexible{
+    display: flex;
+    padding: 20px;
+}
 .stay-half-width{
     width: 50%;
     padding: 70px;
+    padding-bottom: 30px;
 }
 a{
     text-decoration: none;
@@ -28,8 +34,59 @@ a{
 }
 .person1-image{
     width: 90%;
+    padding-bottom: 30px;
 }
 /*section 1 end*/
 .align{
     text-align: center;
+}
+/*section 2 start*/
+.mission-vission-goals{
+    display: flex;
+    padding: 70px;
+}
+.half-width{
+    width: 30%;
+    border-radius: 10px;
+    height: 250px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
+.illustrators{
+    width: 40%;
+}
+#mission{
+   background-color: #d4f8f8;
+}
+#vission{
+    background-color:#eba8d7;
+}
+#goals{
+    background-color: blanchedalmond;
+}
+/*section 2 end*/
+
+/*section 3 stard*/
+.coding{
+    width: 80%;
+}
+.coding-padding{
+    padding: ;
+}
+/*section 3 end*/
+.sosial{
+    text-align: center;
+}
+.rejister{
+    background-image: linear-gradient(blue, red, salmon);
+    color: white;
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
